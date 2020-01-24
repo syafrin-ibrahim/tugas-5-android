@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <TextView
+
+        android:id="@+id/item_title"
+        android:textSize="15dp"
+        style="@style/itemtitle"
+        tools:text="@string/name_movie" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            style="@style/itemimg"
+            tools:src="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/item_description"
+            style="@style/itemdesc"
+            android:layout_marginStart="-4dp"
+            tools:text="@string/desc_movie" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnsave"
+        style="@style/btnsave"
+        android:text="@string/btn_favorite"
+        />
+
+</LinearLayout>

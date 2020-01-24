@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MovieFavorite</string>
+    <string name="name_movie">name movie</string>
+    <string name="desc_movie">description</string>
+    <string name="change_language_settings">change_language_settings</string>
+    <string name="title_favorite">FAVORITE</string>
+    <string name="fav">favorite</string>
+    <string name="btn_favorite">add to favorite</string>
+    <string name="btn_delete">remove from favorite</string>
+    <string name="save_favorite">success add to favorite</string>
+    <string name="failed_favorite">failed add to favorite</string>
+    <string name="success_delete">success delete from favorite</string>
+    <string name="failed_delete">failed delete from favorite</string>
+    <string name="title_confirm">confirm to remove</string>
+    <string name="msg_confirm">are you sure to remove this item ?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="failed_loadimage">failed to load image</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="search_title">type a title</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">empty text</string>
+    <string name="title">Favorite Movie</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+        <include
+        layout="@layout/toolbar"/>
+    <Switch
+        android:id="@+id/swc_daily_reminder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/daily_r"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/swc_daily_reminder"/>
+
+    <Switch
+        android:id="@+id/swc_release_today_reminder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/new_reminder"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/swc_release_today_reminder"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
